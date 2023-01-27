@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens Dinâmicas</h1>
+    <p>Tente abrir o site em dispositivos diferentes ou aumentar e diminuir o tamanho do navegador</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="midias/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="midias/foto-m.png" type="image/png">
+        <img src="midias/foto-g.png" alt="Foto flexível">
+    </picture>
+    <h1>Inserindo Áudios</h1>
+    <audio controls preload="metadata">
+        <source src="midias/hey-there.mp3" type="audio/mpeg">
+        <source src="midias/hey-there.ogg" type="audio/ogg">
+        <source src="midias/hey-there.wav" type="audio/wav">
+        <p>O seu navegador não é compatível com os formatos de áudio. <a href="midias/hey-there.mp3" download="hey-there.mp3" type="audio/mpeg">Clique aqui para baixar</a> </p>
+    </audio>
+</body>
+</html>
