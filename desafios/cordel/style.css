@@ -14,6 +14,7 @@ body {
 header {
     background-color: black;
     color: white;
+    font: normal lighter 1.5em 'Passion One' , cursive;
     text-align: center;
     margin: 0px 0px 50px 0px;
     padding: 15px;
@@ -30,7 +31,7 @@ a:hover {
 }
 
 main {
-    font-family: 'Sriracha', cursive;
+    font: normal normal 1.1em 'Sriracha', cursive;
 }
 
 main > p {
@@ -40,8 +41,11 @@ main > p {
 #container1 {
     background: yellowgreen url('imagens/background001.jpg') right center no-repeat fixed; 
     background-size: cover;
+    height: 300px;
     padding: 20px;
     margin: 50px 0px;
+    box-shadow: inset 2px 2px 14px 4px rgba(0, 0, 0, 0.548);
+    position: relative;
 }
 
 #conteudo1 {
@@ -49,14 +53,19 @@ main > p {
     color: rgb(243, 243, 243);
     width: 200px;
     padding: 10px;
-    
+    position: absolute;
+    top: 50%;
+    transform: translate(0%, -50%);
 }
 
 #container2 {
     background: gray url('imagens/background002.jpg') right center no-repeat fixed;
     background-size: cover;
+    height: 300px;
     padding: 20px;
+    box-shadow: inset 2px 2px 14px 4px rgba(0, 0, 0, 0.548);
     margin: 50px 0px;
+    position: relative;
 }
 
 #conteudo2 {
@@ -64,6 +73,9 @@ main > p {
     color: rgb(243, 243, 243);
     width: 200px;
     padding: 10px;
+    position: absolute;
+    top: 50%;
+    transform: translate(0%, -50%);
 }
 
 footer {
