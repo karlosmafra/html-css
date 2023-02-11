@@ -16,8 +16,19 @@ header {
     color: white;
     font: normal lighter 1.5em 'Passion One' , cursive;
     text-align: center;
-    margin: 0px 0px 50px 0px;
-    padding: 15px;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    font-variant: small-caps;
+    padding-top: 50px;
+    margin: 0px;
+}
+
+header > p {
+    margin: 0px;
+    padding-bottom: 50px;
 }
 
 a {
@@ -35,7 +46,14 @@ main {
 }
 
 main > p {
-    margin: 20px;
+    margin: 0px;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    line-height: 2em;
 }
 
 #container1 {
@@ -43,7 +61,7 @@ main > p {
     background-size: cover;
     height: 300px;
     padding: 20px;
-    margin: 50px 0px;
+    margin: 0px;
     box-shadow: inset 2px 2px 14px 4px rgba(0, 0, 0, 0.548);
     position: relative;
 }
@@ -64,7 +82,7 @@ main > p {
     height: 300px;
     padding: 20px;
     box-shadow: inset 2px 2px 14px 4px rgba(0, 0, 0, 0.548);
-    margin: 50px 0px;
+    margin: 0px;
     position: relative;
 }
 
