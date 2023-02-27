@@ -13,12 +13,19 @@
         table {
             border-collapse: collapse;
             width: 500px;
+            position: relative;
         }
 
         caption {
             font-size: 1.5em;
             font-weight: bold;
             padding: 10px;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: rgb(88, 88, 88);
         }
 
         thead, tfoot {
@@ -29,6 +36,14 @@
         td, th {
             border: 1px solid black;
             padding: 10px;
+        }
+
+        tbody > tr:nth-child(odd) /* (2n-1) */ {
+            background-color: white;
+        }
+
+        tbody > tr:nth-child(even) /* (2n) */ {
+            background-color: lightgray;
         }
 
         td.num {
@@ -160,5 +175,12 @@
             <td class="num"><strong>210 147 125</strong></td>
         </tfoot>
     </table>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, modi laboriosam debitis esse eos eligendi totam harum facere distinctio sapiente sunt eum sequi libero qui error dolore aperiam maxime fugit! Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam ipsa quis corporis quod cumque deleniti maiores eum! Debitis dolor non a, cupiditate minus necessitatibus? Suscipit ut id laudantium architecto ipsam? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio rem maiores saepe repellat necessitatibus eum vitae eius. Rem quis repellendus, exercitationem, beatae libero doloribus dicta dolorum porro cum non consectetur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia libero deleniti accusamus dicta maxime incidunt dolorem! Neque, nihil impedit! Architecto possimus non quod voluptatem veritatis autem laboriosam! Deserunt, libero recusandae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda minima voluptas magnam ipsum error aliquam amet magni quod voluptatibus modi dolore corporis, cumque eos odit minus ea, impedit ullam inventore.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, modi laboriosam debitis esse eos eligendi totam harum facere distinctio sapiente sunt eum sequi libero qui error dolore aperiam maxime fugit! Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam ipsa quis corporis quod cumque deleniti maiores eum! Debitis dolor non a, cupiditate minus necessitatibus? Suscipit ut id laudantium architecto ipsam? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio rem maiores saepe repellat necessitatibus eum vitae eius. Rem quis repellendus, exercitationem, beatae libero doloribus dicta dolorum porro cum non consectetur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia libero deleniti accusamus dicta maxime incidunt dolorem! Neque, nihil impedit! Architecto possimus non quod voluptatem veritatis autem laboriosam! Deserunt, libero recusandae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda minima voluptas magnam ipsum error aliquam amet magni quod voluptatibus modi dolore corporis, cumque eos odit minus ea, impedit ullam inventore.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, modi laboriosam debitis esse eos eligendi totam harum facere distinctio sapiente sunt eum sequi libero qui error dolore aperiam maxime fugit! Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam ipsa quis corporis quod cumque deleniti maiores eum! Debitis dolor non a, cupiditate minus necessitatibus? Suscipit ut id laudantium architecto ipsam? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio rem maiores saepe repellat necessitatibus eum vitae eius. Rem quis repellendus, exercitationem, beatae libero doloribus dicta dolorum porro cum non consectetur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia libero deleniti accusamus dicta maxime incidunt dolorem! Neque, nihil impedit! Architecto possimus non quod voluptatem veritatis autem laboriosam! Deserunt, libero recusandae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda minima voluptas magnam ipsum error aliquam amet magni quod voluptatibus modi dolore corporis, cumque eos odit minus ea, impedit ullam inventore.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, modi laboriosam debitis esse eos eligendi totam harum facere distinctio sapiente sunt eum sequi libero qui error dolore aperiam maxime fugit! Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam ipsa quis corporis quod cumque deleniti maiores eum! Debitis dolor non a, cupiditate minus necessitatibus? Suscipit ut id laudantium architecto ipsam? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio rem maiores saepe repellat necessitatibus eum vitae eius. Rem quis repellendus, exercitationem, beatae libero doloribus dicta dolorum porro cum non consectetur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia libero deleniti accusamus dicta maxime incidunt dolorem! Neque, nihil impedit! Architecto possimus non quod voluptatem veritatis autem laboriosam! Deserunt, libero recusandae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda minima voluptas magnam ipsum error aliquam amet magni quod voluptatibus modi dolore corporis, cumque eos odit minus ea, impedit ullam inventore.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, modi laboriosam debitis esse eos eligendi totam harum facere distinctio sapiente sunt eum sequi libero qui error dolore aperiam maxime fugit! Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam ipsa quis corporis quod cumque deleniti maiores eum! Debitis dolor non a, cupiditate minus necessitatibus? Suscipit ut id laudantium architecto ipsam? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio rem maiores saepe repellat necessitatibus eum vitae eius. Rem quis repellendus, exercitationem, beatae libero doloribus dicta dolorum porro cum non consectetur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia libero deleniti accusamus dicta maxime incidunt dolorem! Neque, nihil impedit! Architecto possimus non quod voluptatem veritatis autem laboriosam! Deserunt, libero recusandae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda minima voluptas magnam ipsum error aliquam amet magni quod voluptatibus modi dolore corporis, cumque eos odit minus ea, impedit ullam inventore.</p>
+
 </body>
 </html>
