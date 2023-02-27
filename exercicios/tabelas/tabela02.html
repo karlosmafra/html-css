@@ -6,14 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabela População</title>
     <style>
-        table {
+        body {
             font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
             border-collapse: collapse;
             width: 500px;
         }
 
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+        }
+
         thead, tfoot {
-            background-color: gray;
+            background-color: rgb(88, 88, 88);
             color: white;
         }
 
@@ -29,10 +38,12 @@
     </style>
 </head>
 <body>
+    <h1>Uso de tabelas grandes</h1>
     <table>
+        <caption>População das Unidades Federativas</caption>
         <thead>
-            <th>Unidade Federativa</th>
-            <th>População</th>
+            <th scope="col">Unidade Federativa</th>
+            <th scope="col" style="width: 100px;">População</th>
         </thead>
         <tbody>
             <tr>
@@ -145,7 +156,7 @@
             </tr>
         </tbody>
         <tfoot>
-            <th>Total de Habitantes</th>
+            <th scope="row">Total de Habitantes</th>
             <td class="num"><strong>210 147 125</strong></td>
         </tfoot>
     </table>
